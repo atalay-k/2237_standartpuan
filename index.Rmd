@@ -310,7 +310,7 @@ $$z=\frac{X-\overline{X}}{s_X}$$
 ---
 ## z puanı
 
-- Ortalaması 50.19 ve standart sapması 10.07 olan bir sınava ilişkin ham puanlar [ornek.xlsx](ornek.xlsx) dosyasında yer almaktadır. Bu puanların dağılım aşağıdaki gibidir.
+- Ortalaması 50.19 ve standart sapması 10.07 olan bir sınava ilişkin ham puanlar `r emo::ji('link')`[ornek.xlsx](ornek.xlsx) dosyasında yer almaktadır. Bu puanların dağılım aşağıdaki gibidir.
 
 .pull-left[
 ```{r echo=FALSE, fig.height=5.5, fig.width=8}
@@ -353,7 +353,7 @@ curve(dnorm(x, mean=mean(ornekz), sd=sd(ornekz)), add=TRUE,  col="darkblue", lwd
 ---
 ## T puanı
 
-- Ortalaması 50.19 ve standart sapması 10.07 olan bir sınava ilişkin ham puanlar [ornek.xlsx](ornek.xlsx) dosyasında yer almaktadır. Bu puanların dağılım aşağıdaki gibidir.
+- Ortalaması 50.19 ve standart sapması 10.07 olan bir sınava ilişkin ham puanlar `r emo::ji('link')`[ornek.xlsx](ornek.xlsx) dosyasında yer almaktadır. Bu puanların dağılım aşağıdaki gibidir.
 
 .pull-left[
 ```{r echo=FALSE, fig.height=5.5, fig.width=8}
@@ -462,7 +462,7 @@ zdag
 ---
 ## Yüzde
 
-- **z tablosunu** [dosyadan](z_table.pdf) inceleyebilirsiniz.  
+- **z tablosunu** `r emo::ji('link')`[dosyadan](z_table.pdf) inceleyebilirsiniz.  
 
 ![tasblonun ilk satırları](ztable.PNG).
 
@@ -504,7 +504,7 @@ edilmektedir. **
 
 -  Matematik sınavından 70 alan bir Elif'in, iki farklı gruptaki konumu için ne  söyleyebiliriz.
 
-- Grup 1 ve Grup 2 ye ilişkin [veriler](Ornek2.xlsx) dosyasında yer almaktadır. Sınava ilişikin iki gruptaki ortalama ve standart sapma aşağıdaki gibidir.
+- Grup 1 ve Grup 2 ye ilişkin `r emo::ji('link')`[veriler](Ornek2.xlsx) dosyasında yer almaktadır. Sınava ilişikin iki gruptaki ortalama ve standart sapma aşağıdaki gibidir.
 
 |Grup| f | $\overline{X}$ | $s$ |
 |---|---|---|---|
@@ -521,7 +521,7 @@ edilmektedir. **
 
 - Ortalaması 50.2, standart sapması 10.2 olan bir sınavdan Elif 60, Esin ise 70 olsun. Elif ve Esin'in sıralamadaki yerleri için ne söyleyebilirsiniz?
 
-- Belirtilen sınava ilişkin [veriler](Ornek3.xlsx) dosyasında yer almaktadır. Sınava ilişikin iki gruptaki ortalama ve standart sapma aşağıdaki gibidir.
+- Belirtilen sınava ilişkin `r emo::ji('link')`[veriler](Ornek3.xlsx) dosyasında yer almaktadır. Sınava ilişikin iki gruptaki ortalama ve standart sapma aşağıdaki gibidir.
 
 || f | $\overline{X}$ | $s$ |
 |---|---|---|---|
@@ -537,7 +537,7 @@ edilmektedir. **
 
 - Ortalaması 65 standart sapması 15.8 olan A testi ve ortalaması 65 standart sapması 8.58 olan B testlerinden 70 alan Ahmet’in, gruptaki arkadaşlarına göre B testinde daha başarılı olduğunu
 söyleyebilir miyiz? 
-- Belirtilen sınavlara ilişkin [veriler](Ornek4.xlsx) dosyasında yer almaktadır. sınavlara ilişikin ortalama ve standart sapma aşağıdaki gibidir.
+- Belirtilen sınavlara ilişkin `r emo::ji('link')`[veriler](Ornek4.xlsx) dosyasında yer almaktadır. sınavlara ilişikin ortalama ve standart sapma aşağıdaki gibidir.
 
 |Test| f | $\overline{X}$ | $s$ |
 |---|---|---|---|
