@@ -104,15 +104,15 @@ geom_text(x =2.3, y = 0.01, size = 3.5, fontface = "bold",
 
 zdag <- SND + scale_x_continuous(breaks = c(-3:3)) +
 labs(x = "\n z puanları", y = "\n Yüzde", title = "Standart Normal Dağılım") +
-  theme(plot.title = element_text(hjust = 0.5,face="bold"), 
-        axis.title.x = element_text(face="bold", size = 12),
-        axis.title.y = element_text(face="bold", size = 12))
+  theme(plot.title = element_text(hjust = 0.5,face="bold",size=16), 
+        axis.title.x = element_text(face="bold", size = 14),
+        axis.title.y = element_text(face="bold", size = 14))
 
 tdag <- SND +    scale_x_continuous(breaks = -3:3, label = c("20","30","40", "50", "60","70","80")) +
 labs(x = "\n T puanları", y = "\n Yüzde", title = "Standart Normal Dağılım") +
-  theme(plot.title = element_text(hjust = 0.5,face="bold"), 
-        axis.title.x = element_text(face="bold", size = 12),
-        axis.title.y = element_text(face="bold", size = 12))
+  theme(plot.title = element_text(hjust = 0.5,face="bold",size=16), 
+        axis.title.x = element_text(face="bold", size = 14),
+        axis.title.y = element_text(face="bold", size = 14))
 
 
 
@@ -250,7 +250,7 @@ dağılımların **aynı ortalama ve standart sapmaya sahip bir dağılıma dön
 
 --
 
-- **Dönüşüm** ölçme sonuçlarının yorumlanmasını kolaylaştırır, **farklı
+- **Dönüşüm**, ölçme sonuçlarının yorumlanmasını kolaylaştırır, **farklı
 dağılımlardaki ölçme sonuçlarının birbiriyle karşılaştırılabilmesine olanak** sağlar.
 
 ---
@@ -283,7 +283,7 @@ puanı -1´e eşittir.**
 $$z=\frac{X-\overline{X}}{s_X}$$
 - $X:$ öğrencinin puanı
 - $\overline{X} :$ aritmetik ortalama
-- $s_X:$ standart sapma
+- $s_\overline{X}:$ standart sapma
 
 ---
 ## z puanı
@@ -310,7 +310,7 @@ $$z=\frac{X-\overline{X}}{s_X}$$
 ---
 ## z puanı
 
-- Ortalaması 50.19 ve standart sapması 10.07 olan bir sınava ilişkin ham puanlar [ornek.xlsx](ornek.xlsx) dosyasında yer almaktadır. Bu puanların dağılım aşağıdaki gibidir.
+- Ortalaması 50.19 ve standart sapması 10.07 olan bir sınava ilişkin ham puanlar `r emo::ji('link')`[ornek.xlsx](ornek.xlsx) dosyasında yer almaktadır. Bu puanların dağılım aşağıdaki gibidir.
 
 .pull-left[
 ```{r echo=FALSE, fig.height=5.5, fig.width=8}
@@ -353,7 +353,7 @@ curve(dnorm(x, mean=mean(ornekz), sd=sd(ornekz)), add=TRUE,  col="darkblue", lwd
 ---
 ## T puanı
 
-- Ortalaması 50.19 ve standart sapması 10.07 olan bir sınava ilişkin ham puanlar [ornek.xlsx](ornek.xlsx) dosyasında yer almaktadır. Bu puanların dağılım aşağıdaki gibidir.
+- Ortalaması 50.19 ve standart sapması 10.07 olan bir sınava ilişkin ham puanlar `r emo::ji('link')`[ornek.xlsx](ornek.xlsx) dosyasında yer almaktadır. Bu puanların dağılım aşağıdaki gibidir.
 
 .pull-left[
 ```{r echo=FALSE, fig.height=5.5, fig.width=8}
@@ -395,7 +395,7 @@ gibi dönüşümlerde bulunmaktadır.
 
 --
 
-  - Normal dağılım göstermeyen ölçümler: Yaş, kişilerin eğitim düzeyleri, din, ırk
+  - Normal dağılım göstermeyen ölçümler: kişilerin eğitim düzeyleri, din, ırk
 
 --
 
@@ -407,7 +407,7 @@ gibi dönüşümlerde bulunmaktadır.
 
 --
 
-- Standart puanları yorumlamak ham puanlara göre daha kolaydır. Standart puanların **aritmetik ortalamaları ve standart sapmaları hep aynıdır, değişmez.**(örnek, z-puan için ortalama 0 standart sapma 1’dir.)
+- Standart puanları yorumlamak ham puanlara göre daha kolaydır. Standart puanların **aritmetik ortalamaları ve standart sapmaları hep aynıdır, değişmez.** (örnek, z-puan için ortalama 0 standart sapma 1’dir.)
 
 --
 
@@ -415,15 +415,15 @@ gibi dönüşümlerde bulunmaktadır.
 
 --
 
-- Standart puanlar yorumu kolaylaştırır. 
+- Standart puanlar **yorumu kolaylaştırır.** 
 
 
 ---
 ## Standart Normal Dağılım Ölçüleri
 
-- Örneğin 6 yaşında bir çocuk icin **20 kilo 130 cm** dediğimizde bu cocuğun diğer çocuklara karşı zayıf mı şisman mı olduğunu kestiremeyiz. 
+- Örneğin 6 yaşında bir çocuk icin **20 kilo 130 cm** dediğimizde bu çocuğun diğer çocuklara karşı **zayıf mı şisman mı** olduğunu kestiremeyiz. 
 
-- Ama aynı çocuğun boy ve kilosunu **T puanı** olarak ifade edersek bu bize çocuğun diğer çocuklara kıyasla nasıl olduğunu gösterir. 
+- Ama aynı çocuğun boy ve kilosunu **T puanı** olarak ifade edersek bu bize çocuğun **diğer çocuklara kıyasla** nasıl olduğunu gösterir. 
 
 - Diyelim ki aynı çocucuğun kilosu ve boyu sırasıyla **T puan** cinsinden **30** ve **70.** Bu bize bu ögrencinin **çok zayıf ve çok uzun** olduğunu gösterir.
 
@@ -431,9 +431,9 @@ gibi dönüşümlerde bulunmaktadır.
 ---
 ## Yüzde
 
-- iki farklı sınıfta okuyan Elif ve Esin'in knedi sınıfları içindeki konumları kıyaslanabilir. 
+- **İki farklı sınıfta okuyan Elif ve Esin'in** kendi sınıfları içindeki konumları kıyaslanabilir. 
 
-- İkisinin de kendi sınıflarında girdikleri sınavdan aldıkları puanlar birbirine eşit ve 65'tir.
+- İkisinin de kendi sınıflarında girdikleri sınavdan aldıkları puanlar birbirine **eşit ve 65'tir.**
 
 | Elif ve Sınıfına İlişkin Puanlar  | Esin ve Sınıfına İlişkin Puanlar|
 |---|---|
@@ -462,7 +462,7 @@ zdag
 ---
 ## Yüzde
 
-- **z tablosunu** [dosyadan](z_table.pdf) inceleyebilirsiniz.  
+- **z tablosunu** `r emo::ji('link')`[dosyadan](z_table.pdf) inceleyebilirsiniz.  `r emo::ji('link')`[z değeri hesaplama](https://davidmlane.com/hyperstat/z_table.html)
 
 ![tasblonun ilk satırları](ztable.PNG).
 
@@ -494,17 +494,21 @@ tdag
 - **Standart puanlar** öğrencilerin grup içindeki başarı düzeylerini karşılaştırıp bir
 puan hesaplaması yaptığından bir **bağıl değerlendirme** şeklidir.
 
+--
+
 - Seçme ve yerleştirme sınavlarında her bir dersin ortalaması ve standart sapmasına bağlı olarak **öğrencilerin sıralaması** önemli olduğundan puanlamada **standart puanlar tercih
 edilmektedir. **
+
+--
 
 - Ancak eğitsel açıdan bakıldığında, **hedef kazanımlar söz konusu olduğunda** bu puanların kullanılması, **kazanımlara ulaşamayan öğrencilerin de başarılı sayılması sorununa neden olabilir. **
 
 ---
 ## Uygulama - I
 
--  Matematik sınavından 70 alan bir Elif'in, iki farklı gruptaki konumu için ne  söyleyebiliriz.
+-  Matematik sınavından 70 alan Elif'in, iki farklı gruptaki konumu için ne  söyleyebiliriz.
 
-- Grup 1 ve Grup 2 ye ilişkin [veriler](Ornek2.xlsx) dosyasında yer almaktadır. Sınava ilişikin iki gruptaki ortalama ve standart sapma aşağıdaki gibidir.
+- Grup 1 ve Grup 2 ye ilişkin `r emo::ji('link')`[veriler](Ornek2.xlsx) dosyasında yer almaktadır. Sınava ilişikin iki gruptaki ortalama ve standart sapma aşağıdaki gibidir.
 
 |Grup| f | $\overline{X}$ | $s$ |
 |---|---|---|---|
@@ -512,7 +516,7 @@ edilmektedir. **
 | Grup2  |  50 | 50.0 | 17.4 |
 
 
-- Elif'in Grup2 için **z** puanı $(70-50)/11=1.82$ 'dir. Elif grubun *%96**'sınden daha başarılıdır.
+- Elif'in Grup1 için **z** puanı $(70-50)/11=1.82$ 'dir. Elif grubun **%96**'sınden daha başarılıdır.
 
 - Elif'in Grup2 için **z** puanı $(70-50)/14.4=1.15$ 'dir. Elif grubun **%88**'inden daha başarılıdır.
 
@@ -521,7 +525,7 @@ edilmektedir. **
 
 - Ortalaması 50.2, standart sapması 10.2 olan bir sınavdan Elif 60, Esin ise 70 olsun. Elif ve Esin'in sıralamadaki yerleri için ne söyleyebilirsiniz?
 
-- Belirtilen sınava ilişkin [veriler](Ornek3.xlsx) dosyasında yer almaktadır. Sınava ilişikin iki gruptaki ortalama ve standart sapma aşağıdaki gibidir.
+- Belirtilen sınava ilişkin `r emo::ji('link')`[veriler](Ornek3.xlsx) dosyasında yer almaktadır. Sınava ilişikin iki gruptaki ortalama ve standart sapma aşağıdaki gibidir.
 
 || f | $\overline{X}$ | $s$ |
 |---|---|---|---|
@@ -537,19 +541,25 @@ edilmektedir. **
 
 - Ortalaması 65 standart sapması 15.8 olan A testi ve ortalaması 65 standart sapması 8.58 olan B testlerinden 70 alan Ahmet’in, gruptaki arkadaşlarına göre B testinde daha başarılı olduğunu
 söyleyebilir miyiz? 
-- Belirtilen sınavlara ilişkin [veriler](Ornek4.xlsx) dosyasında yer almaktadır. sınavlara ilişikin ortalama ve standart sapma aşağıdaki gibidir.
+- Belirtilen sınavlara ilişkin `r emo::ji('link')`[veriler](Ornek4.xlsx) dosyasında yer almaktadır. sınavlara ilişikin ortalama ve standart sapma aşağıdaki gibidir.
 
 |Test| f | $\overline{X}$ | $s$ |
 |---|---|---|---|
 | Test A |  50 | 65.9 | 15.8 |
 | Test B  |  50 | 64.9 | 8.58 |
 
-- Ahmet'in A testinden  **z** puanı $(70-65.9)/15.8=0.25$ 'dir. Ahmet grubun %60'ından daha başarılıdır.
+- Ahmet'in A testinden  **z** puanı $(70-65.9)/15.8=0.25$ 'dir. Ahmet grubun **%60**'ından daha başarılıdır.
 
-- Ahmet'in B testinden  **z** puanı $((70-64.9)/8.58=0.59$ 'dir. Ahmet grubun %73'ünden daha başarılıdır.
+- Ahmet'in B testinden  **z** puanı $((70-64.9)/8.58=0.59$ 'dir. Ahmet grubun **%73**'ünden daha başarılıdır.
 ---
 ## Kaynaklar
 
+- Baykul, Yaşar & Turgut, M. Fuat. (2010). Eğitimde ölçme ve değerlendirme. Ankara: Pegem Akademi Yayıncılık.
+
+
+- Güler, Neşe. (2011). Ölçme ve değerlendirme. Ankara: Pegem Akademi Yayıncılık.
+
+- Şahin, Murat Doğan(Ed.). (2021). Eğitimde ölçme ve değerlendirme. Ankara: Pegem Akademi Yayıncılık.
 ---
 .center[
 <br>
