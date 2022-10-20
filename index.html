@@ -16,7 +16,7 @@ class: center, middle, inverse, title-slide
 # 📊 Sınav Sonuçlarının Değerlendirilmesi
 ]
 .subtitle[
-## <br> 📉 Sıralama ve Karşılaştırma ile Puanlar Dönüşümleri
+## <br> 📊 Sıralama ve Karşılaştırma ile Puanlar Dönüşümleri
 ]
 .author[
 ### Dr. Kubra Atalay Kabasakal
@@ -185,7 +185,7 @@ standart sapma üzerinde** puan almıştır. Böylece bu bireyin **z
 puanı 1´e eşittir.**
 
 - **50** puan alan bir birey ortalamanın `\(50-70=-20\)` puan yani **1
-standart sapma altında** puan almıştır. Böylece bu bireyin **Z
+standart sapma altında** puan almıştır. Böylece bu bireyin **z
 puanı -1´e eşittir.**
 
 
@@ -194,7 +194,7 @@ puanı -1´e eşittir.**
 ## z puanı
 
 
-- Ham puanların, **aritmetik ortalaması 0** ve **standart sapması 1** olan puanlara dönüştürülmesiyle elde edilen standart puanlara **z puanı** adı verilir ve z puanı aşağıda verilen eşitlik yardımıyla hesaplanır:
+- Ham puanların, **aritmetik ortalaması 0** ve **standart sapması 1** olan puanlara dönüştürülmesiyle elde edilen standart puanlara **z puanı** adı verilir ve **z puanı** aşağıda verilen eşitlik yardımıyla hesaplanır:
 
 `$$z=\frac{X-\overline{X}}{s_X}$$`
 - `\(X:\)` öğrencinin puanı
@@ -210,8 +210,8 @@ puanı -1´e eşittir.**
   - Grubun Ortalaması **	`\(\overline{X}\)` = 70**
   - Grubun Standart Sapması  **	`\(s\)`= 20**
 
--  **90** puan alan bir bireyin  **z**  puanı = (90-70)/20 = **1**
--  **50** puan alan bir bireyin   **z**  puanı = (50-70)/20 = **-1**
+-  **90** puan alan bir bireyin  **z**  puanı = **(90-70)/20 = 1**
+-  **50** puan alan bir bireyin   **z**  puanı = **(50-70)/20 = -1**
 
 ---
 ## z puanı
@@ -235,8 +235,9 @@ puanı -1´e eşittir.**
 .pull-right[
 ![](index_files/figure-html/unnamed-chunk-3-1.png)&lt;!-- --&gt;
 ]
+
 ---
-## Standart Puanlar
+## T puanı
 
 - **z puanları** zaman zaman eksi değerler ve ondalıklı değerler alabilmektedirler. Bu değerlerin kullanışlı olmaması nedeniyle, puanlar bir başka standart puan olan **T puanına** dönüştürülür.
 
@@ -248,16 +249,43 @@ puanı -1´e eşittir.**
 
 --
 
-- Bir öğrencinin z puanı  1.2 olduğunda T puanı
+- Bir öğrencinin **z puanı  1.2** olduğunda T puanı
 
   -  `\(T  = 50 + (10*1.2) = 50 + 12 = 62\)`
 
 --
 
-- Bir öğrencinin z puanı  -1.2 olduğunda T puanı
+- Bir öğrencinin **z puanı -1.2** olduğunda T puanı
 
   -  `\(T  = 50 + (10*-1.2) = 50 + 12 = 38\)`
-  
+
+
+---
+## T puanı
+
+- Ortalaması 50.19 ve standart sapması 10.07 olan bir sınava ilişkin ham puanlar [ornek.xlsx](ornek.xlsx) dosyasında yer almaktadır. Bu puanların dağılım aşağıdaki gibidir.
+
+.pull-left[
+![](index_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
+]
+
+.pull-right[
+![](index_files/figure-html/unnamed-chunk-5-1.png)&lt;!-- --&gt;
+]
+
+---
+## Diğer Puan Dönüşümleri
+
+- Puan dönüşümlerinde **z** ve **T** puanları en sık kullanılandır.
+Bu dönüşümler hariç
+
+- 0-1 dönüşümü
+- Maksimum değer dönüşümü
+
+gibi dönüşümlerde bulunmaktadır.
+
+
+
 ---
 ## Normal Dağılım ve Standart Puanlar
 
@@ -304,21 +332,61 @@ puanı -1´e eşittir.**
 
 
 ---
+## Yüzde
+
+- iki farklı sınıfta okuyan Elif ve Esin'in knedi sınıfları içindeki konumları kıyaslanabilir. 
+
+- İkisinin de kendi sınıflarında girdikleri sınavdan aldıkları puanlar birbirine eşit ve 65'tir.
+
+| Elif ve Sınıfına İlişkin Puanlar  | Esin ve Sınıfına İlişkin Puanlar|
+|---|---|
+|  `\(X=65\)` |   `\(X=65\)` |
+| `\(\overline{X}=65\)` |   `\(\overline{X}=70\)`  |
+| `\(s=5\)` |   `\(s=5\)`  |
+| `\(z=(65-65)/5=0\)` |   `\(s=(65-70)/5=-1\)`  |
+
+---
+## Yüzde
+
+
+.pull-left[
+![](index_files/figure-html/unnamed-chunk-6-1.png)&lt;!-- --&gt;
+]
+
+.pull-right[
+
+- Elif'in z puanı 0 olduğu için Elif sınıfın %50'sinden daha başarılıdır.
+
+- Esin'in z puanı 0 olduğu için Elif sınıfın %15.7'sinden daha başarılıdır.
+]
+
+---
+## Yüzde
+
+- z tablosunu [dosyadan](z_table.pdf) inceleyebilirsiniz.  
+
+![tasblonun ilk satırları](ztable.PNG).
+
+---
 ## Standart Normal Dağılım Ölçüleri
 
 - Herhangi bir dağılımı oluşturan her bir gözleme sabit bir sayı eklenirse dağılımın şekli degişmez. Benzer şekilede her bir gözlem belirli bir sayı ile çarpılır ya da bölünürse dağılımın **şekli değişmez.**
 
 .pull-left[
-![](index_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
+![](index_files/figure-html/unnamed-chunk-7-1.png)&lt;!-- --&gt;
 ]
 .pull-right[
 
-![](index_files/figure-html/unnamed-chunk-5-1.png)&lt;!-- --&gt;
+![](index_files/figure-html/unnamed-chunk-8-1.png)&lt;!-- --&gt;
 
 ]
 
+
+
+
+
 ---
-## Standart Normal Dağılım Ölçüleri
+## Değerlendirme
 
 - **Standart puanlar** öğrencilerin grup içindeki başarı düzeylerini karşılaştırıp bir
 puan hesaplaması yaptığından bir **bağıl değerlendirme** şeklidir.
@@ -330,6 +398,23 @@ edilmektedir. **
 
 ---
 ## Uygulama
+
+-  Matematik sınavından 70 alan bir Elif'in, iki farklı gruptaki konumu için ne  söyleyebiliriz.
+
+
+- Grup 1 ve Grup 2 ye ilişkin [veriler](Ornek2.xlsx) dosyasında yer almaktadır.
+
+- Sınava ilişikin iki gruptaki ortalamalar aşağıdaki 
+
+|Grup| f | `\(\overline{X}\)` | `\(s\)` |
+|---|---|---|---|
+| Grup1  |  50 | 50.1 | 11.0 |
+| Grup2  |  50 | 50.0 | 17.4 |
+
+
+- Elif'in Grup2 için **z** puanı `\((70-50)/11=1.82\)` 'dir. Elif grubun %96'sınden daha başarılıdır.
+
+- Elif'in Grup2 için **z** puanı `\((70-50)/14.4=1.15\)` 'dir. Elif grubun %88'inden daha başarılıdır.
 
 
 ---
