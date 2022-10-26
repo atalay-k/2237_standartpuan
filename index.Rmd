@@ -462,11 +462,9 @@ zdag
 ---
 ## Yüzde
 
-<<<<<<< HEAD
 - **z tablosunu** `r emo::ji('link')`[dosyadan](z_table.pdf) inceleyebilirsiniz.  `r emo::ji('link')`[z değeri hesaplama](https://davidmlane.com/hyperstat/z_table.html)
-=======
+
 - **z tablosunu** `r emo::ji('link')`[dosyadan](z_table.pdf) inceleyebilirsiniz.  
->>>>>>> a334af1258050a785ed805d959d5fcf78deec209
 
 ![tasblonun ilk satırları](ztable.PNG).
 
