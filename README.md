@@ -6,5 +6,4 @@
 **Bilkent Üniversitesi**
 **İhsan Doğramacı Bilkent Üniversitesi**
 
-
-`r emo::ji('link')` [sunu](https://atalay-k.github.io/2237_standartpuan/#1)
+Sunu [sunu](https://atalay-k.github.io/2237_standartpuan/#1)
