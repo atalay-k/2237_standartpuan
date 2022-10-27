@@ -554,6 +554,15 @@ söyleyebilir miyiz?
 
 - Ahmet'in B testinden  **z** puanı $((70-64.9)/8.58=0.59$ 'dir. Ahmet grubun **%73**'ünden daha başarılıdır.
 ---
+## Uygulama Cevaplar
+
+- Uygulama_I  `r emo::ji('link')`[cevaplar](Ornek2cevap.xlsx)
+
+- Uygulama_II  `r emo::ji('link')`[cevaplar](Ornek3cevap.xlsx)
+
+- Uygulama_III  `r emo::ji('link')`[cevaplar](Ornek4cevap.R)
+
+---
 ## Kaynaklar
 
 - Baykul, Yaşar & Turgut, M. Fuat. (2010). Eğitimde ölçme ve değerlendirme. Ankara: Pegem Akademi Yayıncılık.
