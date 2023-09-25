@@ -31,3 +31,4 @@ Madde Tepki Kuramı ile Madde Analizi Uygulaması
 
 >>>>>>> a738d452f92ca1b7ddcff72d0e184f396e54ad9d
 # 2237_SP
+# 2237_SP
